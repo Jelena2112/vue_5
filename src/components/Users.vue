@@ -1,10 +1,14 @@
 <template>
- <p>helooo</p>
+ <p>{{ msg }}</p>
+  <Info></Info>
 </template>
 
 <script>
+import Info from "@/components/Info.vue";
+
 export default {
   name: 'Users',
+  components: {Info},
   props: {
     msg: String
   }
