@@ -5,5 +5,9 @@
 <script>
 export default {
   name: 'ProductDetails',
+  inject: ['ProvidedProductList'],
+  mounted() {
+    console.log(this.ProvidedProductList);
+  }
 }
 </script>
