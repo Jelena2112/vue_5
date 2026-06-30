@@ -1,6 +1,6 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <Products :ProductsList="ProductsList" />
+  <ProductsPage  />
 
 </template>
 
