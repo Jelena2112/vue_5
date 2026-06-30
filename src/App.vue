@@ -11,6 +11,9 @@ import ProductsPage from '@/components/ProductsPage.vue'
 export default {
   name: 'App',
   components: {ProductsPage},
+  provide: () => ({
+    ProvidedProductList:this.ProductsList
+  }),
   data: () => ({
     ProductsList: [
       {
