@@ -1,5 +1,7 @@
 <template>
-  <div class="product-info">Product Info</div>
+  <div>{{ product.name }}</div>
+  <div>{{ product.price }}</div>
+  <div>{{ product.length }}</div>
 </template>
 
 
