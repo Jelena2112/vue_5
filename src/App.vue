@@ -5,10 +5,12 @@
 </template>
 
 <script>
+import ProductsPage from '@/components/ProductsPage.vue'
 
 
 export default {
   name: 'App',
+  components: {ProductsPage},
   data: () => ({
     ProductsList: [
       {
